@@ -8,6 +8,7 @@ import Form from './Components/Form';
 import Count from './Components/Count';
 import Image from './Components/Image';
 import Image1 from './Components/Image1';
+import Props from './Components/Props';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Event/>
       <Form/>
       <Count/>
+      <Props/>
       {/* <Image/> */}
       {/* <Image1/> */}
 

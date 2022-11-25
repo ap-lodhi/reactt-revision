@@ -55,6 +55,10 @@ const Form =()=>{
         alert("form is  submited ")
     }
 
+
+    const [name, setName]=useState("")
+    // console.log(name)
+
     return(
         <>
         <br />
@@ -93,10 +97,20 @@ const Form =()=>{
             onChange={inputEvent} 
             name="phone"
             value={fullName.phone}/>
-
+<br />
+<br />
+<br />
+<br />
+            <input    placeholder="enter your name" value={name} onChange={ (e)=>{setName(e.target.value)}}/>
+            <br />
+            <br />
+            <br />
+            <br />
             <button type="submit">Submit Me 👍</button>
+           
         </div>
             </form>
+           
             <br />
             <hr />
         </>
