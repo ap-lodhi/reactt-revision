@@ -32,6 +32,7 @@ const handleAdd=()=>{
             data.map((ele,index)=>{
                 return <Task  {...ele} />
                 // return <Task  title={ele.title} status={ele.status} we can pass  the two way of  passing props />
+                // 
             })
          }
         </div>
